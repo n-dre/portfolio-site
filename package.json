@@ -1,0 +1,28 @@
+{
+    "name": "portfolio-site",
+    "version": "1.0.0",
+    "description": "Portfolio-site",
+    "main": "js/stripts.js",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint --format codeframe .",
+        "lintfix": "node_modules/.bin/eslint --fix .",
+        "test": "./node_modules/.bin/mocha ./tests/*.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/n-dre/portfolio-site.git"
+    },
+    "author": "Andre",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/n-dre/portfolio-site/issues"
+    },
+    "homepage": "https://github.com/n-dre/portfolio-site#readme",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^7.2.0",
+        "grunt-image": "^6.3.0",
+        "install": "^0.13.0",
+        "mocha": "^8.0.1"
+    }
+}
